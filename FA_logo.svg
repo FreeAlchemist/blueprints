@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<!-- Создано Microsoft Visio 11.0, Экспорт SVG, версия 1.0 FA_logo.svg Страница-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="0.808235in" height="0.82792in"
+		viewBox="0 0 58.1929 59.6102" xml:space="preserve" color-interpolation-filters="sRGB" class="st6">
+	<v:documentProperties v:langID="1049" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#808000;stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:url(#grad26-8);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st3 {fill:url(#grad36-12);stroke:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st4 {fill:url(#grad36-16);stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st5 {fill:#cbb7a0;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st6 {fill:none;fill-rule:evenodd;font-size:12;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<defs id="Patterns_And_Gradients">
+		<linearGradient id="grad26-8" v:fillPattern="26" v:foreground="#ffff00" v:background="#ffc000" x1="0" y1="0" x2="1" y2="0">
+			<stop offset="0" style="stop-color:#ffc000;stop-opacity:1"/>
+			<stop offset="0.5" style="stop-color:#ffff00;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#ffc000;stop-opacity:1"/>
+		</linearGradient>
+		<radialGradient id="grad36-12" v:fillPattern="36" v:foreground="#bbbb00" v:background="#808000" cx="0" cy="0" r="1">
+			<stop offset="0" style="stop-color:#bbbb00;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#808000;stop-opacity:1"/>
+		</radialGradient>
+		<radialGradient id="grad36-16" v:fillPattern="36" v:foreground="#ede2c9" v:background="#cbb7a0" cx="0" cy="0" r="1">
+			<stop offset="0" style="stop-color:#ede2c9;stop-opacity:1"/>
+			<stop offset="1" style="stop-color:#cbb7a0;stop-opacity:1"/>
+		</radialGradient>
+	</defs>
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Страница-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="group1-1" transform="translate(0.75,-0.75)" v:mID="1" v:groupContext="group">
+			<title>Лист.1</title>
+			<g id="shape2-2" v:mID="2" v:groupContext="shape">
+				<title>Круг.91</title>
+				<v:userDefs>
+					<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+				</v:userDefs>
+				<path d="M0 31.26 A28.3465 28.3465 0 0 1 56.69 31.26 A28.3465 28.3465 0 1 1 0 31.26 Z" class="st1"/>
+			</g>
+			<g id="group3-4" transform="translate(-1.19904E-014,-1.41732)" v:mID="3" v:groupContext="group">
+				<title>Лист.3</title>
+				<g id="shape4-5" v:mID="4" v:groupContext="shape">
+					<title>Круг.23</title>
+					<v:userDefs>
+						<v:ud v:nameU="visVersion" v:val="VT0(14):26"/>
+					</v:userDefs>
+					<path d="M0 31.26 A28.3465 28.3465 0 0 1 56.69 31.26 A28.3465 28.3465 0 1 1 0 31.26 Z" class="st2"/>
+				</g>
+				<g id="shape5-9" v:mID="5" v:groupContext="shape" transform="translate(7.08661,-5.66929)">
+					<title>Лист.5</title>
+					<path d="M0 38.35 A21.2598 21.2598 -180 1 0 42.52 38.35 A21.2598 21.2598 -180 1 0 -0 38.35 ZM21.53 54.3 C26.05
+								 50.47 27.85 44.2 28.21 38.46 L22.92 36.97 A18.2956 15.5505 -88.2 0 0 22.85 44.2 C20.73 41.01 21.26
+								 38.56 21.41 36.55 C19.18 36.01 19.18 36.01 16.47 35.16 C15.94 40.69 17.19 46.64 22 51.11 C15.02
+								 47.49 12.67 39.63 13.36 34.28 L11.69 33.81 C12.13 32.4 13.22 31.12 14.01 31.03 L16.11 25.81 L15.2
+								 25.38 C15.2 24.11 15.39 23.47 16.29 22.41 C17.92 23.68 19.72 24.74 23.34 29.42 C21.17 28.15 21.17
+								 28.15 19.36 27.3 C18.28 29 18.1 30.06 17.37 32.4 C18.28 32.82 18.91 33.04 21.89 34.2 C23.16 30.27
+								 24.6 27.51 28.21 24.96 C34.9 39.2 27.31 52.59 21.53 54.3 Z" class="st3"/>
+				</g>
+				<g id="shape6-13" v:mID="6" v:groupContext="shape" transform="translate(7.08661,-7.08661)">
+					<title>Лист.6</title>
+					<path d="M0 38.35 A21.2598 21.2598 -180 1 0 42.52 38.35 A21.2598 21.2598 -180 1 0 -0 38.35 ZM21.53 54.3 C26.05
+								 50.47 27.85 44.2 28.21 38.46 L22.92 36.97 A18.2956 15.5505 -88.2 0 0 22.85 44.2 C20.73 41.01 21.26
+								 38.56 21.41 36.55 C19.18 36.01 19.18 36.01 16.47 35.16 C15.94 40.69 17.19 46.64 22 51.11 C15.02
+								 47.49 12.67 39.63 13.36 34.28 L11.69 33.81 C12.13 32.4 13.22 31.12 14.01 31.03 L16.11 25.81 L15.2
+								 25.38 C15.2 24.11 15.39 23.47 16.29 22.41 C17.92 23.68 19.72 24.74 23.34 29.42 C21.17 28.15 21.17
+								 28.15 19.36 27.3 C18.28 29 18.1 30.06 17.37 32.4 C18.28 32.82 18.91 33.04 21.89 34.2 C23.16 30.27
+								 24.6 27.51 28.21 24.96 C34.9 39.2 27.31 52.59 21.53 54.3 Z" class="st4"/>
+				</g>
+				<g id="shape7-17" v:mID="7" v:groupContext="shape" transform="translate(38.9764,-33.4488)">
+					<title>Лист.7</title>
+					<path d="M16.58 59.61 A28.5965 28.5965 -180 0 0 0 39.2 A26.9831 26.9831 -180 0 0 0.89 44.1 A24.8031 24.8031 0
+								 0 1 12.39 57.78 A24.8031 24.8031 -180 0 0 16.58 59.61 Z" class="st3"/>
+				</g>
+				<g id="shape8-20" v:mID="8" v:groupContext="shape" transform="translate(39.238,-34.5573)">
+					<title>Лист.8</title>
+					<path d="M16.77 59.61 A28.3465 28.3465 -180 0 0 0 39.65 A24.8031 24.8031 -180 0 0 1.08 44.1 A24.8031 24.8031
+								 0 0 1 12.57 57.78 A24.8031 24.8031 -180 0 0 16.77 59.61 Z" class="st4"/>
+				</g>
+				<g id="shape9-23" v:mID="9" v:groupContext="shape" transform="translate(17.6148,-1.42109E-014)">
+					<title>Лист.9</title>
+					<path d="M3.67 55.04 A16.122 16.122 -180 0 0 -0 57.5 A28.3465 28.3465 -180 0 0 21.46 57.5 A16.122 16.122 -180
+								 0 0 17.8 55.04 A24.8031 24.8031 0 0 1 3.67 55.04 Z" class="st4"/>
+				</g>
+				<g id="shape10-26" v:mID="10" v:groupContext="shape" transform="translate(0.283465,-2.83465)">
+					<title>Лист.10</title>
+					<path d="M18.57 57.34 A24.3716 24.3716 88.99 0 1 3.54 35.26 A24.8031 24.8031 0 0 1 36.12 11.71 A28.3465 28.3465
+								 0 0 1 35.53 7.84 A28.3465 28.3465 -180 0 0 0 35.26 A27.5528 27.5528 -89.92 0 0 15.17 59.61 A52.675
+								 52.675 -98.93 0 0 18.57 57.34 Z" class="st3"/>
+				</g>
+				<g id="shape11-29" v:mID="11" v:groupContext="shape" transform="translate(2.39808E-014,-3.14961)">
+					<title>Лист.11</title>
+					<path d="M18.43 57.15 A24.8031 24.8031 0 0 1 3.54 34.41 A24.8031 24.8031 0 0 1 36.12 10.86 A28.3465 28.3465 0
+								 0 1 35.53 6.99 A28.3465 28.3465 -180 0 0 -0 34.41 A28.3465 28.3465 -180 0 0 15.36 59.61 A18.4252
+								 18.4252 0 0 1 18.43 57.15 Z" class="st4"/>
+				</g>
+				<g id="shape12-32" v:mID="12" v:groupContext="shape" transform="translate(38.2591,-3.14961)">
+					<title>Лист.12</title>
+					<path d="M0 57.15 A18.4252 18.4252 0 0 1 3.07 59.61 A28.3465 28.3465 -180 0 0 18.43 34.41 A28.3465 28.3465 -180
+								 0 0 18.34 32.07 A28.3465 28.3465 0 0 1 14.63 30.82 A24.8031 24.8031 0 0 1 14.89 34.41 A24.8031 24.8031
+								 0 0 1 -0 57.15 Z" class="st4"/>
+				</g>
+				<g id="shape13-35" v:mID="13" v:groupContext="shape" transform="translate(30.3726,-29.7283)">
+					<title>Лист.13</title>
+					<path d="M0 57.49 L5.11 59.61 L5.11 59.61 C5.47 55.25 5.29 52.91 4.2 50.57 C2.04 52.28 0.56 54.86 0 57.49 Z"
+							class="st5"/>
+				</g>
+			</g>
+		</g>
+	</g>
+</svg>
