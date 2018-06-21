@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<gadget>
+	<name>
+	Timer
+	</name>
+	<version>
+	1
+	</version>
+	<!-- <author name="имя автора"> -->
+	<!-- 	<info url="ссылка на сайт разработчика"/> -->
+	<!-- 	<logo src="путь к логотипу"/> -->
+	<!-- </author> -->
+	<copyright>
+	СОЗДАТЕЛЬ
+	</copyright>
+	<!-- <icons>
+		<icon width="64" height="64" src="путь к иконке гаджета"/>
+	</icons> -->
+
+	<hosts>
+		<host name="sidebar">
+			<base type="HTML" apiVersion="1.0.0" src="timer.html"/>
+			<permissions>Full</permissions>
+			<platform minPlatformVersion="0.3"/>
+		</host>
+	</hosts>
+</gadget>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Timer</title>
+	<meta charset="UTF-8"/>
+	<link rel="stylesheet" type="text/css" href="css/timer.css">
+</head>
+<body>
+<div id="clockdiv">
+<input id="deadline" type="date" onchange="GetDeadline()">
+<input id="deadtime" type="time" value="00:00" onchange="GetDeadline()">
+
+<!-- <input class="datetext" id="date-day" maxlength="2" type="text">
+<input class="datetext" id="date-month" maxlength="2" type="text">
+<input class="datetext" id="date-year" maxlength="4" type="text"> -->
+
+<div class="maintitle" id="maintitle">Укажите дату и время</div>
+  <div class="time"><div class="title">Дней</div><div class="text days">00</div></div>
+  <div class="time"><div class="title">Часов</div><div class="text hours">00</div></div>
+  <div class="time"><div class="title">Минут</div><div class="text minutes">00</div></div>
+  <div class="time"><div class="title">Секунд</div><div class="text seconds">00</div></div>
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/timer.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.company{
+	width: 1060px;
+	height: 425px;
+	border: solid 1px;
+	background-color: Gray;
+}
+.group{
+	width: 200px;
+	height: 200px;
+	border: black solid 1px;
+	border-radius: 5px;
+	float: left;
+	margin: 5px;
+	background-color: Linen;
+}
+.person{
+	width: 175px;
+	height: 50px;
+	border: black solid 1px;
+	border-radius: 5px;
+	margin: 5px;
+	margin-top: 10px;
+	line-height: 50px;
+	padding-left: 10px;
+	font-size: 16pt;
+	text-transform: uppercase;
+}
+.tester{background-color: Orange;color: black;}
+.boss{background-color: Crimson;color: black;}
+.developer{background-color: green;color: Linen;}
+.stats{
+	width: 1050px;
+	margin-top: 20px;
+	border: black solid 1px;
+	padding-left: 10px;
+}
+#addpersons{
+	border: black solid 3px;
+	border-radius: 3px;
+	text-decoration: none;
+	background-color: Linen;
+	color: black;
+	padding: 5px;
+	font-size: 16pt;
+}

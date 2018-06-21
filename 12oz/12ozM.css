@@ -1,0 +1,45 @@
+body{width: 200px;height: 200px;}
+
+.ozM { 
+width: 280px;
+height: 200px;
+position: relative;
+background-image: url("12ozM.svg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.ozM::before, .ozM::after {
+      content: '';
+      position: absolute;
+      border-radius: 50%;
+      background-repeat: no-repeat;
+      background-size: 100%;
+}
+
+.ozM::before {
+      width: 12px;
+      height: 12px;
+      left: 74px;
+      top: 57px;
+      background-image: url(12ozM_eye1.svg);
+      animation: eye 3s ease-in-out infinite;
+      -webkit-animation: eye 3s ease-in-out infinite;
+}
+.ozM::after {
+      width: 27px;
+      height: 27px;
+      right: 96px;
+      top: 65px;
+      background-image: url(12ozM_eye2.svg);
+      animation: eye 4s ease-in-out infinite;
+      -webkit-animation: eye 4s ease-in-out infinite;
+}
+@keyframes eye {
+      90% { transform: none; }   
+      95% { transform: scaleY(0.1);}
+}
+@-webkit-keyframes eye {
+      90% { transform: none; }   
+      95% { transform: scaleY(0.1);}
+}

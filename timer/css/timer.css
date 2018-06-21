@@ -1,0 +1,48 @@
+#clockdiv{
+	position: absolute;
+	left: 25%;
+	top: 10%;
+	font-size: 24pt;
+	text-align: end;
+}
+
+.time {
+	float: left;
+	margin: 15px;
+}
+
+.title,.text,.maintitle,#deadline,#deadtime{
+	width: 100%;
+	border: 6px solid Gray;
+	border-radius: 5px;
+	box-shadow: black 5px 5px 10px;
+	line-height: 50px;
+}
+
+.title,.text {
+	background: black;
+	color: white;
+	text-transform: uppercase;
+	height: 50px;
+	margin-bottom: 8px;
+	text-align: center;
+}
+
+.maintitle{
+	text-transform: uppercase;
+	height: 50px;
+	margin: 10px 0px;
+	text-align: center;
+}
+
+#deadline,#deadtime{
+    padding: 10px 0px;
+    height: 25px;
+    font-size: 24pt;
+    color: black;
+    margin-bottom: 10px;
+    /*text-align: center;*/
+    width:44%;
+    padding-left: 20px;
+    box-shadow:inset black 5px 5px 10px;
+}
