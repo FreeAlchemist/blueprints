@@ -1,0 +1,339 @@
+#field,#mazefield,#bulletfield{position: absolute;}
+#info{
+    position: absolute;
+right: 20px;
+top: 50px;
+border: solid 1px;
+padding: 5px;
+width: 100px;
+}
+
+#startscreen{
+position:absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+padding:5px;
+/*background: linear-gradient(to bottom, Linen, Burlywood);*/
+background-color: rgba(27,29,24,0.5);
+color: rgba(249,206,116,1);
+border-radius: 6px;
+z-index: 100;
+text-align: center;
+font-size: 20pt;
+}
+
+.tank{
+position:absolute;
+background: linear-gradient(to bottom, Linen, Burlywood);
+background-size: 100%;
+background-position: center;
+background-repeat: no-repeat;
+color: yellow;
+z-index: 80;
+background-color: black;
+/*border:solid black 1px;;
+border-bottom-color: red;*/
+
+}
+/*.Tank1{background-image: url(../img/tank1.svg);}*/
+.Tank1{
+    /*background-image: url(../img/hero_1_walk_up_00.png);*/
+    background-size: auto 100%;
+}
+.Tank2{
+    /*background-image: url(../img/hero_2_walk_up_00.png);*/
+    background-size: auto 100%;
+/*background-image: url(../img/spriteherowalks2.png);*/
+
+
+/*background-size: 32px 64px;*/
+/*background-size: 192px 256px;*/
+/*background-position: 18px 0px;*/
+/*background-position: 18px 0px;*/
+
+
+}
+
+.MazeCube,.BrickBlock,.SolidBlock,.FireBlock{
+position:absolute;
+/*background: linear-gradient(to bottom, Linen, Burlywood);*/
+border-style: solid;
+border-color: black;
+border-width: 1px;
+/*box-shadow:3px 3px 6px black;*/
+z-index: 99;
+background-image: url(../img/brick.svg);
+background-size: 100%;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+.SolidBlock{
+    /*background-image: url(../img/solid.svg);*/
+    background-image: url(../img/solid.png);
+}
+
+.BrickBlock{
+    /*background-image: url(../img/brick.svg);*/
+    background-image: url(../img/brick.png);
+    border: none;
+    box-shadow: none;
+}
+
+.FireBlock{
+   /*background-image: url(../img/fire1.png);*/
+}
+
+.shot{
+    position:absolute;
+    border-radius: 0px;
+    z-index: 90;
+    /*background-size: 20%;*/
+    background-size: 100% auto;
+    /*background-position: center;*/
+    background-repeat: no-repeat;
+    /*background-image: url(../img/shot.svg);*/
+    /*background-image: url(../img/fire1.svg);*/
+    /*background-image: url(../img/saw1.svg);*/
+}
+
+.type-sword{
+  background-image: url(../img/sword1.png);
+}
+
+.EscapeCube{
+position:absolute;
+background-size: 100%;
+background-position: center;
+background-repeat: no-repeat;
+color: black;
+background-image: url(../img/escape.svg);
+
+/*background-image: url(../img/cube-blue.svg);*/
+/*background-image: url(../img/cube-gray.svg);*/
+/*background-image: url(../img/cube-green.svg);*/
+background-image: url(../img/quad1.png);
+/*background-image: url(../img/cube-red-1.svg);*/
+/*background-image: url(../img/cube-yellow.svg);*/
+/*background-image: url(../img/dwarfen-1.svg);*/
+/*background-image: url(../img/dwarfen-2.svg);*/
+/*background-image: url(../img/dwarfen-3.svg);*/
+/*background-image: url(../img/dwarfen-4.svg);*/
+}
+
+.blood{
+    position: absolute;
+    z-index: 81;
+    background-size: 60% auto;
+    background-position: 50% 100%;
+    background-repeat: no-repeat;
+    background-image: url(../img/blood.png);
+}
+
+.WinMsg{
+    position:absolute;
+    padding:5px;
+    /*background-color: rgba(27,29,24,0.1);*/
+    color: rgba(249,206,116,1);
+    border-radius: 6px;
+    z-index: 100;
+    text-align: center;
+    font-size: 20pt;
+}
+
+/* Проявление */
+ @-webkit-keyframes appearanim {
+    0% {opacity: 0;}
+    100% {opacity: 1;} 
+ }
+
+ /* Исчезание */
+ @-webkit-keyframes dissappearanim {
+    0% {opacity: 1;}
+    100% {opacity: 0;} 
+ }
+
+/*Мерцающая граница*/
+   @-webkit-keyframes borderanim1 {
+0% {border-color:white;border-radius: 10px;}
+40% {border-color:red;border-radius: 10px;}
+60% {border-color:Saddlebrown;border-radius: 10px;}
+100% {border-color:red;border-radius: 10px;}
+ }
+
+
+/*движение*/
+  @-webkit-keyframes hero-walk-up {
+0% {background-image: url(../img/hero_1_walk_up_00.svg);}
+15% {background-image: url(../img/hero_1_walk_up_01.svg);}
+30% {background-image: url(../img/hero_1_walk_up_02.svg);}
+50% {background-image: url(../img/hero_1_walk_up_03.svg);}
+90% {background-image: url(../img/hero_1_walk_up_04.svg);}
+100% {background-image: url(../img/hero_1_walk_up_05.svg);}
+ }
+
+   @-webkit-keyframes hero-walk-down {
+ 0% {background-image: url(../img/hero_1_walk_down_00.png);}
+ 15% {background-image: url(../img/hero_1_walk_down_01.png);}
+30% {background-image: url(../img/hero_1_walk_down_02.png);}
+ 60% {background-image: url(../img/hero_1_walk_down_03.png);}
+ 90% {background-image: url(../img/hero_1_walk_down_04.png);}
+ 100% {background-image: url(../img/hero_1_walk_down_05.png);}
+  }
+
+    @-webkit-keyframes hero-walk-left {
+  0% {background-image: url(../img/hero_1_walk_left_00.png);}
+  15% {background-image: url(../img/hero_1_walk_left_01.png);}
+  30% {background-image: url(../img/hero_1_walk_left_02.png);}
+  60% {background-image: url(../img/hero_1_walk_left_03.png);}
+  90% {background-image: url(../img/hero_1_walk_left_04.png);}
+  100% {background-image: url(../img/hero_1_walk_left_05.png);}
+   }
+
+     @-webkit-keyframes hero-walk-right {
+   0% {background-image: url(../img/hero_1_walk_right_00.png);}
+   15% {background-image: url(../img/hero_1_walk_right_01.png);}
+   30% {background-image: url(../img/hero_1_walk_right_02.png);}
+   60% {background-image: url(../img/hero_1_walk_right_03.png);}
+   90% {background-image: url(../img/hero_1_walk_right_04.png);}
+   100% {background-image: url(../img/hero_1_walk_right_05.png);}
+    }
+
+     .tank{
+    /*-webkit-animation-name:hero-walk-up;*/
+    /*-webkit-animation-name:hero-walk-down;*/
+    /*-webkit-animation-name:hero-walk-left;*/
+    /*-webkit-animation-name:hero-walk-right;*/
+    -webkit-animation-timing-function:linear;
+    -webkit-animation-duration:1.0s;
+    -webkit-animation-delay:0s;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-play-state:running;   
+    }
+
+
+
+
+@-webkit-keyframes escapechange {
+/*0% {background-image: url(../img/quad1.svg);}
+100% {background-image: url(../img/quad2.svg);}*/
+0% {background-image: url(../img/quad1.png);}
+100% {background-image: url(../img/quad2.png);}
+}
+
+@-webkit-keyframes aura {
+0% {background-image: url(../img/quadaura.png);transform:rotateZ(0deg);}
+100% {transform:rotateZ(360deg);}
+}
+
+@-webkit-keyframes attack-fire {
+0% {background-image: url(../img/fire1.svg);background-size: 60% auto;background-position: 50% 50%;}
+100% {background-image: url(../img/fire2.svg);background-size: 60% auto;background-position: 50% 50%;}
+}
+
+@-webkit-keyframes fire {
+0% {background-image: url(../img/fire1.png);}
+100% {background-image: url(../img/fire2.png);}
+}
+
+@-webkit-keyframes attack-star {
+0% {background-image: url(../img/star1.svg);}
+100% {background-image: url(../img/star2.svg);}
+}
+
+@-webkit-keyframes attack-push {
+0% {background-image: url(../img/push1.png);}
+100% {background-image: url(../img/push2.png);}
+}
+
+@-webkit-keyframes attack-sword {
+0% {background-image: url(../img/sword2.png);background-size: 100%;background-position: 50% 50%;}
+100% {background-image: url(../img/sword1.png);background-size: 90%;background-position: 50% 50%;}
+}
+
+@-webkit-keyframes attack-saw {
+0% {background-image: url(../img/saw1.svg);transform:rotateZ(0deg);}
+100% {transform:rotateZ(360deg);}
+}
+
+ .WinMsg,.EscapeCube{
+-webkit-animation-name:appearanim;
+-webkit-animation-timing-function:linear;
+-webkit-animation-duration:2s;
+-webkit-animation-delay:0s;
+-webkit-animation-iteration-count:once;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;	
+}
+
+
+.shot{
+-webkit-animation-name:appearanim;
+-webkit-animation-timing-function:linear;
+-webkit-animation-duration:0.6s;
+-webkit-animation-delay:0s;
+-webkit-animation-iteration-count:once;
+-webkit-animation-direction:forward;
+-webkit-animation-play-state:running;	
+}
+
+.hero_2_shot{
+/*-webkit-animation-name:attack-star;*/
+/*-webkit-animation-name:attack-fire;*/
+/*-webkit-animation-name:attack-sword;*/
+/*-webkit-animation-name:attack-saw;*/
+-webkit-animation-name:attack-push;
+/*-webkit-animation-name:attack-fire2;*/
+
+-webkit-animation-timing-function:linear;
+-webkit-animation-duration:0.2s;
+-webkit-animation-delay:0s;
+-webkit-animation-iteration-count:infinite;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;   
+}
+
+.hero_1_shot{
+ -webkit-animation-name:attack-star;
+/*-webkit-animation-name:attack-fire;*/
+/*-webkit-animation-name:attack-sword;*/
+/*-webkit-animation-name:attack-saw;*/
+-webkit-animation-timing-function:linear;
+-webkit-animation-duration:0.2s;
+-webkit-animation-delay:0.0s;
+-webkit-animation-iteration-count:once;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;   
+}
+
+.MazeCube{
+-webkit-animation-name:appearanim;
+-webkit-animation-timing-function:linear;
+-webkit-animation-duration:4s;
+-webkit-animation-delay:0.25s;
+-webkit-animation-iteration-count:once;
+-webkit-animation-direction:alternate;
+-webkit-animation-play-state:running;	
+}
+
+.EscapeCube{
+ -webkit-animation-name:escapechange;
+ -webkit-animation-timing-function:linear;
+ -webkit-animation-duration:1s;
+ -webkit-animation-delay:0s;
+ -webkit-animation-iteration-count:infinite;
+ -webkit-animation-direction:alternate;
+ -webkit-animation-play-state:running;
+}
+
+.FireBlock{
+ -webkit-animation-name:fire;
+ -webkit-animation-timing-function:linear;
+ -webkit-animation-duration:0.09s;
+ -webkit-animation-delay:0s;
+ -webkit-animation-iteration-count:infinite;
+ -webkit-animation-direction:alternate;
+ -webkit-animation-play-state:running;
+}
